@@ -1,16 +1,16 @@
 {
-  "compilerOptions": {
-    "module": "CommonJS",
-    "esModuleInterop": true,
-    "target": "ES6",
-    "noImplicitAny": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "outDir": "dist",
-    "baseUrl": "./src",
-    "paths": {
-      "custom-types": ["types/custom.d.ts"]
-    }
-  },
-  "include": ["src/**/*"]
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "ES6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": "./src",
+        "paths": {
+            "custom-types": ["types/custom.d.ts"]
+        }
+    },
+    "include": ["src/**/*"]
 }

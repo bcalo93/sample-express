@@ -1,14 +1,14 @@
-import Pet from "model/pet";
-import PetRepository from "repositories/petRepository";
+import Pet from 'model/pet'
+import PetRepository from 'repositories/petRepository'
 
 export default class PetService {
-  repository: PetRepository;
+    repository: PetRepository
 
-  constructor() {
-    this.repository = new PetRepository();
-  }
+    constructor() {
+        this.repository = new PetRepository()
+    }
 
-  findAll(): Promise<Array<Pet>> {
-    return this.repository.findAll();
-  }
+    findAll(): Promise<Array<Pet>> {
+        return this.repository.findAll()
+    }
 }

@@ -1,17 +1,17 @@
 [
-  {
-    "name": "Rober",
-    "age": 3,
-    "animalType": "dog"
-  },
-  {
-    "name": "Pedro",
-    "age": 5,
-    "animalType": "hourse"
-  },
-  {
-    "name": "Wendy",
-    "age": 2,
-    "animalType": "cat"
-  }
+    {
+        "name": "Rober",
+        "age": 3,
+        "animalType": "dog"
+    },
+    {
+        "name": "Pedro",
+        "age": 5,
+        "animalType": "hourse"
+    },
+    {
+        "name": "Wendy",
+        "age": 2,
+        "animalType": "cat"
+    }
 ]
