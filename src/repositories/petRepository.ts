@@ -7,7 +7,6 @@ export default class PetRepositories {
 
     constructor() {
         this.dataPath = resolve('data', 'pets.json')
-        console.log(this.dataPath)
     }
 
     async findAll(): Promise<Array<Pet>> {
