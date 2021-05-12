@@ -6,7 +6,7 @@ export default class PetRepositories {
     dataPath: string
 
     constructor() {
-        this.dataPath = resolve('..', '..', 'data', 'pets.json')
+        this.dataPath = resolve('data', 'pets.json')
         console.log(this.dataPath)
     }
 
